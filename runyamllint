@@ -1,0 +1,9 @@
+#!/bin/sh
+
+configfile=$1
+
+if [ -n "$configfile" ]; then
+	yamllint --format colored --config-file "$GITHUB_WORKSPACE/$configfile" .
+else
+	yamllint --format colored .
+fi
