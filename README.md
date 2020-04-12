@@ -1,4 +1,4 @@
-# mdl-action
+# yamllint-action
 
 ![Linting](https://github.com/bewuethr/yamllint-action/workflows/Linting/badge.svg)
 ![Move release tags](https://github.com/bewuethr/yamllint-action/workflows/Move%20release%20tags/badge.svg)
