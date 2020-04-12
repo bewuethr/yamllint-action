@@ -69,4 +69,4 @@ and patches are included without requiring a change; the advantage of using
 
 This is done via the [release-tag-tracker] action.
 
-  [releasee-tag-tracker]: https://github.com/marketplace/actions/release-tag-tracker
+  [release-tag-tracker]: https://github.com/marketplace/actions/release-tag-tracker
