@@ -23,7 +23,7 @@ jobs:
         run: curl "$CONFIG_FILE" > .github/workflows/yamllintconfig
 
       - name: 'Run YAML linter'
-        uses: 'bewuethr/yamllint-action@v0'
+        uses: 'bewuethr/yamllint-action@v1'
         with:
           config-file: '.github/workflows/yamllintconfig'
 
