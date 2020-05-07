@@ -1,15 +1,15 @@
-name: 'Run yamllint'
-author: 'Benjamin Wuethrich'
-description: 'Run YAML linter with given configuration file'
+name: Run yamllint
+author: Benjamin Wuethrich
+description: Run YAML linter with given configuration file
 inputs:
   config-file:
-    description: 'Configuration file for yamllint to use'
+    description: Configuration file for yamllint to use
     required: false
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: docker
+  image: Dockerfile
   args:
     - ${{ inputs.config-file }}
 branding:
-  icon: 'check-circle'
-  color: 'blue'
+  icon: check-circle
+  color: blue

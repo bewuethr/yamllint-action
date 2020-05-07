@@ -22,9 +22,9 @@ individual rules.
 ## Example usage
 
 ```yml
-uses: 'bewuethr/yamllint-action@v1'
+uses: bewuethr/yamllint-action@v1
 with:
-  config-file: '.github/workflows/yamllintconfig'
+  config-file: .github/workflows/yamllintconfig
 ```
 
 An example config file might look like this:
@@ -48,19 +48,19 @@ patch release can be used.
 For example: if the latest release is `v1.1.2`,
 
 ```yaml
-uses: 'bewuethr/yamllint-action@v1'
+uses: bewuethr/yamllint-action@v1
 ```
 
 and
 
 ```yaml
-uses: 'bewuethr/yamllint-action@v1.1'
+uses: bewuethr/yamllint-action@v1.1
 ```
 
 and
 
 ```yaml
-uses: 'bewuethr/yamllint-action@v1.1.2'
+uses: bewuethr/yamllint-action@v1.1.2
 ```
 
 will fetch `v1.1.2`. The advantage of using just `@v1` is that minor releases
